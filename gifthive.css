@@ -1,0 +1,62 @@
+header, footer {
+    display:none!important;
+}
+
+form img {
+    border: 0!important;
+    height: auto!important;
+    background: none!important;
+}
+
+h2 {font-family: 'Kaushan Script'!important;}
+h1 {
+    font-family: 'Kaushan Script'!important;
+    border-bottom: 0!important;
+}
+
+.PurchasePage h1 {
+    display:none;
+}
+
+body{ 
+    font-family: 'Roboto'!important;
+}
+
+a.btn, button, input[type="submit"], input[type="reset"], .Actions .action {
+    background: #fbad2f!important;
+    width:100%!important;
+}    
+
+a.btn:hover, button, input[type="submit"]:hover, .Actions .action:hover {
+    background: #fbad2f!important;
+}
+
+form {
+    max-width: 100%!important;
+    width: 100%!important;
+}
+
+form img {
+    max-width: 100%;
+}
+
+form #loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    display:none;
+}
+
+
+form div {
+    margin-bottom: 10px;
+}
+
+.typography p {
+    margin: 0px 0 10px!important;
+}
+
+form .date .middleColumn input {
+    width: 100%!important;
+}
